@@ -1,2 +1,3 @@
-The C student node
-script in chapter
+## The C student node
+
+Script in chapter
