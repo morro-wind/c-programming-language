@@ -6,11 +6,12 @@ main()
 {
     float fahr, celsius;
     int lower, upper, step;
-    char f[]="华氏度", c[]="摄氏度";
+    char f[]="华氏度", c[]="摄氏度", title[]="华氏度转摄氏度";
 
     lower = 0;      /*  温度表的下限    */
     upper = 300;    /*  温度表的上限    */
     step = 20;      /*  步长    */
+    printf("%6s\n", title);
     printf("%6s %15s\n", f, c);
     fahr = lower;
     while (fahr <= upper) {
